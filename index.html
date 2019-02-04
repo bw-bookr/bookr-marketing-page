@@ -7,45 +7,98 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous">
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="css/bootstrap.css" >
+  <link rel="stylesheet" href="css/bootstrap.css">
   <!-- Custom  -->
   <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg fixed-top navbar-light shadow ">
+  <!-- Navbar -->
+  <nav id="nav" class="navbar fixed-top navbar-light nav-lg">
     <div class="container-fluid">
       <a href="/" class="navbar-brand">Booker</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+      <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse mr-0" id="navbarNav">
+      </button> -->
+      <!-- <div class="collapse navbar-collapse mr-0" id="navbarNav">
         <ul class="navbar-nav ml-auto">
-          <!-- <li class="nav-item active">
+          <li class="nav-item active">
             <a class="nav-link" href="/">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/">Pricing</a>
-          </li> -->
+          </li>
         </ul>
-        <a href="/login" class="btn btn-info">Login</a>
-      </div>
+        
+      </div> -->
+      <a href="/login" class="btn btn-primary">Login</a>
     </div>
   </nav>
   <header class="cover row container-fluid p-0 m-0">
-    <div class="col-4 text-center align-self-center">
-      <h1>Welcome to Bookr</h1>
+    <div class="col-xl-4 col-lg-5 col-md-6 col-sm-12 align-self-center cover-text px-5">
+      <h1>Find unique <br> books and experiences.</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quibusdam quae cumque ullam vitae quod,
+        incidunt sed, delectus placeat pariatur nihil aut eligendi saepe est dolor a doloribus libero ipsum?</p>
+      <a href="#features" class="btn btn-dark btn-lg">Learn More</a>
+      <a href="/login" class="btn btn-outline-primary btn-lg">Get Started</a>
     </div>
-    <div class="col-8 cover-img">
+    <div class="col-xl-8 col-lg-7 col-md-6 col-sm-12 cover-img">
 
     </div>
   </header>
-  <section class="container">
+  <section id="features" class="container">
+    <h2>Features</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa neque eaque soluta quo at esse nam odit magni
+      tenetur quam modi tempora, quod ducimus, architecto quas harum. Dolorem, quod nisi.</p>
+    <div class="row">
+      <div class="col-lg-5">
+        <img style="width: 100%;" class="card-img shadow" src="https://images.unsplash.com/photo-1490633874781-1c63cc424610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+          alt="">
+      </div>
+      <div class="col-lg-7 my-3">
+        <div class="row">
+          <div class="col-2 text-center text-primary">
+            <i class="fas fa-fast-forward fa-3x text-primary"></i>
+          </div>
+          <div class="col-10">
+            <h4>Fast</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, </p>
+          </div>
+          <div class="col-2 text-center">
+            <i class="fas fa-credit-card fa-3x text-success"></i>
+          </div>
+          <div class="col-10 ">
+            <h4>Affordable</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, </p>
+          </div>
+          <div class="col-2 text-center">
+            <i class="fas fa-thumbs-up fa-3x text-info"></i>
+          </div>
+          <div class="col-10">
+            <h4>Community Driven</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, </p>
+          </div>
+          <div class="col-2 text-center">
+            <i class="fas fa-shield-alt fa-3x text-danger"></i>
+          </div>
+          <div class="col-10">
+            <h4>Secure</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- <section class="container">
     <h2>Explore Bookr</h2>
 
-  </section>
+  </section> -->
   <section class="container">
     <h2>Recommended Books</h2>
     <div class="row">
@@ -55,7 +108,8 @@
             alt="Book One">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.</p>
             <a href="#" class="btn btn-outline-primary">Go somewhere</a>
           </div>
         </div>
@@ -122,9 +176,11 @@
       </div>
     </div>
   </section>
-  <footer>
-
-  </footer>
+  <!-- <footer class="footer bg-dark h-100">
+    <div class="container">
+      <h6 class="text-muted">Create by Maks</h6>
+    </div>
+  </footer> -->
   <!-- Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
@@ -132,6 +188,20 @@
     crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+  <script>
+    window.addEventListener('scroll', function (e) {
+      var nav = document.querySelector('.navbar');
+      if (document.documentElement.scrollTop || document.body.scrollTop > window.innerHeight) {
+        nav.classList.add('bg-light');
+        nav.classList.add('nav-shadow');
+        nav.classList.remove('nav-lg');
+      } else {
+        nav.classList.remove('bg-light');
+        nav.classList.remove('nav-shadow');
+        nav.classList.add('nav-lg');
+      }
+    });
+  </script>
 </body>
 
 </html>
