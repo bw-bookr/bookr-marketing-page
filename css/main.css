@@ -33,6 +33,14 @@ h2 {
   font-size: 2.5rem;
 }
 
+.review{
+  text-align: center;
+}
+
+.review p {
+  margin-bottom: 0;
+}
+
 .section-header{
   font-weight: 700;
 }
