@@ -14,7 +14,7 @@
     publisher: "Pan Books",
     year: "1978",
     cover_url: "https://bookr-site.netlify.com/imgs/books/hitchhikers-guide.jpg",
-    short_description: "The Hitchhiker's Guide to the Galaxy is the first of five books in the Galaxy comedy science fiction",
+    short_description: "The Hitchhiker's Guide to the Galaxy is the first of five books in the Galaxy comedy science fiction.",
     full_description: "The Hitchhiker's Guide to the Galaxy is the first of five books in the Hitchhiker's Guide to the Galaxy comedy science fiction trilogy by Douglas Adams. The novel is an adaptation of the first four parts of Adams' radio series of the same name. The novel was first published in London on 12 October 1979.",
   },
   {
