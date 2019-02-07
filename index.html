@@ -261,7 +261,7 @@
     <div class="row">
       <div class="col-md-6 col-lg-4 my-3 price1">
         <div class="card text-center shadowHover">
-          <div class="card-header bg-info text-light">
+          <div class="card-header h5 border border-info text-info">
             Start Small
           </div>
           <div class="card-body ">
@@ -277,7 +277,7 @@
       </div>
       <div class="col-lg-4 col-md-12 my-3 price2">
         <div class="card text-center shadowHover">
-          <div class="card-header bg-primary border-primary text-light">
+          <div class="card-header h5 bg-primary border-primary text-light">
             Growing Up
           </div>
           <div class="card-body">
@@ -293,7 +293,7 @@
       </div>
       <div class="col-lg-4 col-md-6 my-3 price3">
         <div class="card text-center shadowHover">
-          <div class="card-header bg-success text-light">
+          <div class="card-header h5 border border-success text-success">
             Expert Reader
           </div>
           <div class="card-body">
@@ -359,9 +359,45 @@
       </div>
     </div>
   </section>
-  <footer class="footer pb-3 pt-4" style="background-color: #E0E0E0;">
-    <div class="container">
-      <h6 class="text-muted">Copyright Bookr 2019</h6>
+  <!-- CTA -->
+  <footer class="footer container-fluid" style="background-color: #E0E0E0;">
+    <div class="row  bg-primary">
+      <div class="container py-4">
+        <div class="row justify-content-md-center">
+          <button type="button" class="btn btn-xs btn-dark btn-wide transition-3d-hover text-left mb-2 mr-3">
+            <span class="media align-items-center">
+              <span class="fab fa-google-play fa-2x mr-3"></span>
+              <span class="media-body">
+                <span class="d-block">Get it on</span>
+                <strong class="font-size-1">Google Play</strong>
+              </span>
+            </span>
+          </button>
+          <button type="button" class="btn btn-xs btn-dark btn-wide transition-3d-hover text-left mb-2 mr-1">
+            <span class="media align-items-center">
+              <span class="fab fa-apple fa-2x mr-3"></span>
+              <span class="media-body">
+                <span class="d-block">Download on the</span>
+                <strong class="font-size-1">App Store</strong>
+              </span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="row py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 align-self-center">
+            <h6 class="text-muted">Copyright Bookr 2019</h6>
+          </div>
+          <div class="col-md-6 text-right-lg align-self-center">
+            <a href="#" class="px-1 text-dark"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="#" class="px-1 text-dark"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="#" class="px-1 text-dark"><i class="fab fa-twitter-square fa-2x"></i></a>
+          </div>
+        </div>
+      </div>
     </div>
   </footer>
   <!-- Bootstrap JS -->
@@ -371,6 +407,7 @@
     crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
   <script src="js/books.js"></script>
   <script>
     window.addEventListener('scroll', function (e) {
