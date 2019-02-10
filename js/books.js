@@ -2,7 +2,6 @@ class BookLink {
   constructor(linkElement){
     this.linkElement = linkElement;
     this.linkData = this.linkElement.dataset.type;
-    //console.log(this.linkData);
     if(this.linkData === "all"){
       this.cards = document.querySelectorAll('.book-card');
     }
